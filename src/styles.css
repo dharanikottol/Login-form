@@ -1,0 +1,123 @@
+.App {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  .Appheader{
+    background-color:rgb(10, 196, 196); 
+    background-size:75px;
+    padding-left: 45%;
+    float:initial
+  }
+  fieldset {
+    border: 0;
+}
+  
+  form {
+    max-width: 500px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 3px solid rgb(10, 196, 196); 
+    border-radius: 1px;  
+    border-top: 50 px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 75%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    height: 22px;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 0px;
+    border: 1px solid #777;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  .input-feedback {
+    color: rgb(235, 54, 54);
+    margin-top: -15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 42px;
+  }
+  
+  .submitButton {
+    padding: 10px 15px;
+    background-color: rgb(1, 92, 153);
+    color: white;
+    border: 1px solid rgb(11, 12, 12);
+    margin-left: 42%;
+    transition: ease-in-out background-color 250ms, ease-in-out color 250ms;
+  }
+
+  .regbutton {
+    margin-left: 75%;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(70, 153, 179);
+  }
+  .table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: white;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+       "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .row {
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+ }
+ .column {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+ }
+ .table-body {
+  display: flex;
+  width: 100%;
+  color: black;
+  flex-wrap: wrap;
+}
+.table-header {
+  background-color: rgb(10, 196, 196); 
+  color: white;
+  width: 100%;
+}
+.icon {
+  background: transparent;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
